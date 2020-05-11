@@ -40,6 +40,7 @@ public class Passengers : MonoBehaviour
         //setting after colliding with door add game object in the list and set parent to charecter container.
         if (other.gameObject.CompareTag("door"))
         {
+            StartCoroutine(AudioManager.instance.footStapeClip());
             collidedWithDoor = true;
             gameObject.layer = LayerMask.NameToLayer("Default");
 
