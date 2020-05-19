@@ -442,7 +442,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 63771988}
   Green: 0
-  speed: 40
+  speed: 45
   StartPosition: -190
   mouseUp: 0
   isReached: 0
@@ -562,7 +562,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 1000
+  far clip plane: 200
   field of view: 70
   orthographic: 1
   orthographic size: 40
@@ -4409,14 +4409,14 @@ MonoBehaviour:
   explodeTrainCount: 50
   colliderList: []
   CharectersPrefeb:
-  - {fileID: 5869497261874105317, guid: 563d78387b5c8184f819c11b67bd6b0b, type: 3}
-  - {fileID: 8949089495969606761, guid: 64ea108ba3fb52d4dad6a19f4d41b1fd, type: 3}
-  - {fileID: 7616350322252389850, guid: 2f0556fc0027cac43b86e5931522f1d2, type: 3}
-  - {fileID: 1339390686588200217, guid: ed0741422cbd91a4b9c03bc2613f72e0, type: 3}
-  - {fileID: 2241363714651990765, guid: 95ad0133791836541981be927daef126, type: 3}
-  - {fileID: 5783513880711868977, guid: c00d6ab8fe7ff3a44b4102f0cb2faa20, type: 3}
-  - {fileID: 3960037571756983420, guid: c8f933b60feee6548a6d468b224ab65d, type: 3}
-  - {fileID: 4705396295382122460, guid: 3d9b6ee55277f4742889a6710b5c6051, type: 3}
+  - {fileID: 3902750374949162858, guid: 95ad0133791836541981be927daef126, type: 3}
+  - {fileID: 763177623373799686, guid: c00d6ab8fe7ff3a44b4102f0cb2faa20, type: 3}
+  - {fileID: 5924791815091745871, guid: c8f933b60feee6548a6d468b224ab65d, type: 3}
+  - {fileID: 8415978448225031597, guid: 3d9b6ee55277f4742889a6710b5c6051, type: 3}
+  - {fileID: 9113486998323110831, guid: 563d78387b5c8184f819c11b67bd6b0b, type: 3}
+  - {fileID: 2125589547174934772, guid: 64ea108ba3fb52d4dad6a19f4d41b1fd, type: 3}
+  - {fileID: 2627440959091780656, guid: 2f0556fc0027cac43b86e5931522f1d2, type: 3}
+  - {fileID: 1407189048082294727, guid: ed0741422cbd91a4b9c03bc2613f72e0, type: 3}
   SizeIncreaser:
   - {fileID: 1523461871}
   - {fileID: 443300952}
