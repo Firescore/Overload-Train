@@ -75,9 +75,9 @@ public class GameManager : MonoBehaviour
     public float GravityOfPassengers;
 
     [Header("Train Capacity and load")]
-    public int PassengersCount;
-    public int maxPassengersLoad;
-    public int explodeTrainCount;
+    public int PassengersCount=40;
+    public int maxPassengersLoad=40;
+    public int explodeTrainCount=50;
 
     [Header("List or Arrays")]
     public List<GameObject> colliderList;

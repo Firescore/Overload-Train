@@ -21,6 +21,7 @@ public class LevelManager : MonoBehaviour
         GameOverPanal.SetActive(false);
         RestartLevel.SetActive(false);
         NextLevel.SetActive(false);
+
     }
     private void Update()
     {
@@ -33,16 +34,25 @@ public class LevelManager : MonoBehaviour
     {
         //Restart same level after rester click
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        
+
+
     }
     public void loadLevel()
     {
         StartCoroutine(load());
+        //reload same scene with different value
+        
+
     }
 
     IEnumerator load()
     {
         //load next level every time 
+        /*GameManager.instance.maxPassengersLoad = 65;
+        GameManager.instance.PassengersCount = 100;
+        GameManager.instance.explodeTrainCount = 80;*/
         yield return new WaitForSeconds(0f);
-        SceneManager.LoadScene(currentLevel + 1);
+        SceneManager.LoadScene(currentLevel+1);
     }
 }
